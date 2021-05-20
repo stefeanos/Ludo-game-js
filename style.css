@@ -1,0 +1,356 @@
+ @media only screen and (min-aspect-ratio:1/1) {
+     body {
+         background-color: lightblue;
+     }
+ }
+
+ svg {
+     margin: -9.99px;
+     height: 100vh;
+      fill             : #F5ECC3;
+     -webkit-animation: body-drop 0.5s ease-in forwards;
+     animation        : body-drop 0.5s ease-in forwards;
+     
+ }
+
+ span {
+     content: "\2191";
+     margin : 150.99px;
+     color  : #EF3C3C;
+   
+ }
+
+ rect.board {
+     stroke      : black;
+     stroke-width: 2px;
+     fill        : rgb(235, 185, 123);
+ }
+
+ rect.part {
+     stroke      : black;
+     stroke-width: 1px;
+     fill        : transparent;
+ }
+
+ rect.square {
+     fill  : white;
+     stroke: black;
+ }
+
+ polygon.red {
+     /*stroke-width: 1px;
+     */
+     transform        : rotate;
+     -webkit-transform: rotate;
+     -moz-transform   : rotate;
+     -ms-transform    : rotate;
+     -o-transform     : rotate;
+ }
+
+ polygon.yellow {
+     /*stroke-width: 1px;
+     */
+     transform        : rotate;
+     -webkit-transform: rotate;
+     -moz-transform   : rotate;
+     -ms-transform    : rotate;
+     -o-transform     : rotate;
+ }
+
+ polygon.blue {
+     /*stroke-width: 1px;
+     */
+     transform        : rotate;
+     -webkit-transform: rotate;
+     -moz-transform   : rotate;
+     -ms-transform    : rotate;
+     -o-transform     : rotate;
+ }
+
+ polygon.green {
+     /*stroke-width: 1px;
+     */
+     transform        : rotate;
+     -webkit-transform: rotate;
+     -moz-transform   : rotate;
+     -ms-transform    : rotate;
+     -o-transform     : rotate;
+ }
+
+
+
+ /* snow man */
+ span {
+     content: "\2191";
+     margin : 200px;
+     margin-bottom:100px;
+     color  : #EF3C3C;
+    
+   
+
+ }
+
+ .snowman_body {
+     fill             : #F5ECC3;
+     -webkit-animation: body-drop 0.5s ease-in forwards;
+     animation        : body-drop 0.5s ease-in forwards;
+     
+    
+ }
+
+ .scarf {
+     fill                        : #EF3C3C;
+     opacity                     : 0;
+     -webkit-animation           : scale 0.5s ease 1s forwards;
+     animation                   : scale 0.5s ease 1s forwards;
+     -webkit-transform-origin-css: 55px 165px;
+     animation                   : scale 0.5s ease 1s forwards;
+ }
+
+ .scarf_knot {
+     fill                    : #EF3C3C;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.3s ease 1.5s forwards;
+     animation               : scale 0.3s ease 1.5s forwards;
+     -webkit-transform-origin: 92px 190px;
+     transform-origin        : 92px 190px;
+ }
+
+ .snowman_head {
+     fill             : #F5ECC3;
+     -webkit-transform: translateY(-303px);
+     transform        : translateY(-303px);
+     -webkit-animation: body-drop 0.5s ease-in 0.2s forwards;
+     animation        : body-drop 0.5s ease-in 0.2s forwards;
+ }
+
+ #hat {
+     -webkit-transform: translateY(-303px);
+     transform        : translateY(-303px);
+     -webkit-animation: body-drop 0.5s ease-in 0.3s forwards;
+     animation        : body-drop 0.5s ease-in 0.3s forwards;
+ }
+
+ .hat-top {
+     fill: #5B4831;
+ }
+
+ .hat-ribbon {
+     fill: #EF3C3C;
+ }
+
+ .hat-bottom {
+     fill: #5B4831;
+ }
+
+ .nose {
+     fill                    : #EF3C3C;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.3s ease 2.5s forwards;
+     animation               : scale 0.3s ease 2.5s forwards;
+     -webkit-transform-origin: 104px 142px;
+     transform-origin        : 104px 142px;
+ }
+
+ .mouth-1 {
+     fill                    : #5B4831;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.1s ease 3.1s forwards;
+     animation               : scale 0.1s ease 3.1s forwards;
+     -webkit-transform-origin: 82px 156px;
+     transform-origin        : 82px 156px;
+ }
+
+ .mouth-2 {
+     fill                    : #5B4831;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.1s ease 3.2s forwards;
+     animation               : scale 0.1s ease 3.2s forwards;
+     -webkit-transform-origin: 86px 162px;
+     transform-origin        : 86px 162px;
+ }
+
+ .mouth-3 {
+     fill                    : #5B4831;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.1s ease 3.3s forwards;
+     animation               : scale 0.1s ease 3.3s forwards;
+     -webkit-transform-origin: 92px 167px;
+     transform-origin        : 92px 167px;
+ }
+
+ .mouth-4 {
+     fill                    : #5B4831;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.1s ease 3.4s forwards;
+     animation               : scale 0.1s ease 3.4s forwards;
+     -webkit-transform-origin: 98px 169px;
+     transform-origin        : 98px 169px;
+ }
+
+ .mouth-5 {
+     fill                    : #5B4831;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.1s ease 3.5s forwards;
+     animation               : scale 0.1s ease 3.5s forwards;
+     -webkit-transform-origin: 106px 171px;
+     transform-origin        : 106px 171px;
+ }
+
+ .mouth-6 {
+     fill                    : #5B4831;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.1s ease 3.6s forwards;
+     animation               : scale 0.1s ease 3.6s forwards;
+     -webkit-transform-origin: 113px 171px;
+     transform-origin        : 113px 171px;
+ }
+
+ .mouth-7 {
+     fill                    : #5B4831;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.1s ease 3.7s forwards;
+     animation               : scale 0.1s ease 3.7s forwards;
+     -webkit-transform-origin: 120px 171px;
+     transform-origin        : 120px 171px;
+ }
+
+ .mouth-8 {
+     fill                    : #5B4831;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.1s ease 3.8s forwards;
+     animation               : scale 0.1s ease 3.8s forwards;
+     -webkit-transform-origin: 127px 169px;
+     transform-origin        : 127px 169px;
+ }
+
+ .mouth-9 {
+     fill                    : #5B4831;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.1s ease 3.9s forwards;
+     animation               : scale 0.1s ease 3.9s forwards;
+     -webkit-transform-origin: 132px 165px;
+     transform-origin        : 132px 165px;
+ }
+
+ .mouth-10 {
+     fill                    : #5B4831;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.1s ease 4.0s forwards;
+     animation               : scale 0.1s ease 4.0s forwards;
+     -webkit-transform-origin: 137px 160px;
+     transform-origin        : 137px 160px;
+ }
+
+ .eye_left {
+     fill                    : #5B4831;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.2s ease 2.7s forwards;
+     animation               : scale 0.2s ease 2.7s forwards;
+     -webkit-transform-origin: 92px 122px;
+     transform-origin        : 92px 122px;
+ }
+
+ .eye_right {
+     fill                    : #5B4831;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.2s ease 2.9s forwards;
+     animation               : scale 0.2s ease 2.9s forwards;
+     -webkit-transform-origin: 125px 120px;
+     transform-origin        : 125px 120px;
+ }
+
+ .button_top {
+     fill                    : #09B0A6;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.3s ease 2.2s forwards;
+     animation               : scale 0.3s ease 2.2s forwards;
+     -webkit-transform-origin: 132px 217px;
+     transform-origin        : 132px 217px;
+ }
+
+ .button_bottom {
+     fill                    : #09B0A6;
+     opacity                 : 0;
+     -webkit-animation       : scale 0.3s ease 2s forwards;
+     animation               : scale 0.3s ease 2s forwards;
+     -webkit-transform-origin: 132px 252px;
+     transform-origin        : 132px 252px;
+ }
+
+ @-webkit-keyframes body-drop {
+     0% {
+         transform: translateY(-303px);
+     }
+
+     100% {
+         transform: translateY(0px);
+     }
+ }
+
+ @keyframes body-drop {
+     0% {
+         transform: translateY(-303px);
+     }
+
+     100% {
+         transform: translateY(0px);
+     }
+ }
+
+ @-webkit-keyframes scale {
+     0% {
+         opacity  : 1;
+         transform: scale(0, 0);
+     }
+
+     100% {
+         opacity  : 1;
+         transform: scale(1, 1);
+     }
+ }
+
+ @keyframes scale {
+     0% {
+         opacity  : 1;
+         transform: scale(0, 0);
+     }
+
+     100% {
+         opacity  : 1;
+         transform: scale(1, 1);
+     }
+ }
+
+
+
+   /*      puzzle*/
+        .pawns{
+        /*
+            width:30px;
+            height:30px;*/
+           
+            border-radius:20px;
+            position:absolute;
+             -webkit-animation: body-drop 0.5s ease-in forwards;
+     animation        : body-drop 0.5s ease-in forwards;
+        }
+       
+        #uselesstext1{
+            float:left;
+            padding-left:10px;
+            padding-right:10px;
+        }
+        footer{
+            font-size:larger;
+            color:darkred;
+
+        }
+          #board {
+        background: url(Images/board.gif) no-repeat;
+        background-size: cover;
+        width: 650px;
+        height: 550px;
+      float:left ;
+        margin-top: 8px;
+      }
